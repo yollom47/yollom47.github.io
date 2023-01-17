@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:16px;
+    font-family: "Permanent Marker",Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+}
+header {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: white;
+    display: flex;
+    background-color: powderblue;
+    align-items: center;
+    
+    
+    
+  }
+ 
+
+  .texio{
+    font-family: "Permanent Marker",Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+    padding-left: 3rem;
+    font-size: 4rem;
+   
+  }
+  .texio:hover{
+   font-size: 5rem;
+   
+  }
+
+  
+
+
+.nav{
+    width: 1000px;
+    display:flex;
+    justify-content: right;
+    margin-top: 0;
+    
+
+    height: 2rem;
+    text-decoration: none;
+    background-color: powderblue;
+    max-width: 1200px;
+
+}
+.icon{
+    height: 2rem;
+    width: 2rem ;
+    text-decoration: none;
+    padding: 1rem;
+
+}
+a, a:visited{
+    color: inherit;
+
+    
+}
+a:active{
+    color:ivory;
+}
+a:hover{
+    font-size: larger;
+}
+li .insta { text-decoration: none;
+}
+
+ul, .insta{
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+li {
+   padding:1rem;
+   align-items: center;
+   text-decoration:none;
+   font-family: "Permanent Marker",Arial, Helvetica, sans-serif ;
+}
+ .banner, h1{
+    position: relative;
+    margin: top 1rem;
+    color:black;
+    font-size: 2.5rem;
+    font-weight:bold;
+    
+    width:75%;
+    opacity: 1;
+    border-color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    font-family: "Permanent Marker",Arial, Helvetica, sans-serif;
+    padding-left: 2rem;
+}
+.banner{
+    
+    margin-left:5rem;
+    min-height:750px;
+    width: 100%;
+    background-image: url("images/IMG_4570.jpg");
+    background-size: 1000px 750px ;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: flex-start;
+    
+    
+}
+    
+.find:hover{
+font-size:larger;
+}
+
+.mission
+{   
+    width:1200px;
+    display: flex-box;
+    justify-content: center;
+    margin: 5rem;
+    width:40rem;
+    
+    
+    
+}
+.about{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.maincontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items img {
+    max-height: 20rem;
+    max-width: 20rem;
+    height:auto;
+    width:auto;
+    border: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+}
+
+    
+
+.items h1{margin:auto;
+          padding: 2rem;
+          text-decoration: underline;
+        }
+
+.pics {display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+}
+
